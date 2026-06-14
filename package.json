@@ -1,0 +1,21 @@
+{
+  "name": "Proyecto1",
+  "version": "1.0.0",
+  "description": "Pagina web comidas rapidas Parrilladas",
+  "keywords": [],
+  "license": "ISC",
+  "author": "JuanRinconGarcia",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "servor src/ index.html 1234 --reload",
+    "lint": "oxlint src/",
+    "format": "oxfmt src/",
+    "deploy": "echo Comando reservado"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.54.0",
+    "oxlint": "^1.69.0",
+    "servor": "^4.0.2"
+  }
+}
