@@ -11,9 +11,10 @@
     "dev": "servor src/ index.html 1234 --reload",
     "lint": "oxlint src/",
     "format": "oxfmt src/",
-    "deploy": "echo Comando reservado"
+    "deploy": "gh-pages -d src/"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "oxfmt": "^0.54.0",
     "oxlint": "^1.69.0",
     "servor": "^4.0.2"
